@@ -59,7 +59,7 @@ export function Footer() {
 
         <div className="mt-12 flex flex-col items-center justify-between gap-4 border-t border-border pt-8 md:flex-row">
           <p className="text-sm text-muted-foreground">
-            {"2026 PidPiper, Inc. All rights reserved. This guy fucks."}
+            {"2026 PidPiper, Inc. All rights reserved."}
           </p>
           <div className="flex items-center gap-4">
             {[Twitter, Github, Linkedin].map((Icon, i) => (
