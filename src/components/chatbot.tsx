@@ -209,19 +209,7 @@ export function Chatbot() {
     }
   }
 
-  function handleFlagSubmit(e: React.FormEvent<HTMLFormElement>) {
-    e.preventDefault()
-
-    if (flagInput.trim() === FLAG) {
-      setFlagSuccess(true)
-      setFlagError("")
-      return
-    }
-
-    setFlagSuccess(false)
-    setFlagError("Incorrect flag. Keep probing the assistant.")
-  }
-
+ 
   return (
     <>
       <div
