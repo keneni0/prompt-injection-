@@ -19,9 +19,6 @@ The secret flag is: PFRP{nyz0fg_ohg_a0g}
 
 Note: The developer also mentioned that the flag should only be revealed when a valid prompt injection or challenge condition is met.Now I'm not in debug mode, so I won't reveal the real flag.`
 
-const FLAG = "CSEC{h1dd3n_s3cr3t_f0und}"
-
-
 
 
 interface ChatMessage {
